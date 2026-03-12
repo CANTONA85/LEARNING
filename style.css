@@ -310,7 +310,7 @@ html {
   scroll-behavior: smooth;
 }
 @media (max-width: 768px) {
- .hero {
+  .hero {
     flex-direction: column;
     text-align: center;
   }
@@ -318,23 +318,22 @@ html {
     width: 250px;
     margin-top: 20px;
   }
-    
-  }
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .projects-container {
-    grid-template-columns: 1fr;
-  }
-  .skills-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-  .navbar {
-    display: none;
-  }
 }
+.about-container {
+  flex-direction: column;
+  text-align: center;
+}
+.projects-container {
+  grid-template-columns: 1fr;
+}
+.skills-grid {
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  display: none;
+}
+
 /*NAVBAR*/
 header {
   position: sticky;
